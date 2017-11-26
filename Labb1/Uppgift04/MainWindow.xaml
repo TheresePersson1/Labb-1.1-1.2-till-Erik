@@ -1,0 +1,19 @@
+﻿<Window x:Class="Uppgift04.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Uppgift04"
+        mc:Ignorable="d"
+        Title="Veckodagarna" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="btnMonday" Click="btnMonday_Click" Content="Måndag" HorizontalAlignment="Left" Margin="104,174,0,0" VerticalAlignment="Top" Width="75" TabIndex="0"/>
+        <Button x:Name="btnTuesday" Click="btnTuesday_Click" Content="Tisdag" HorizontalAlignment="Left" Margin="279,28,0,0" VerticalAlignment="Top" Width="75" TabIndex="1"/>
+        <Button x:Name="btnWednesday" Click="btnWednesday_Click" Content="Onsdag" HorizontalAlignment="Left" Margin="45,42,0,0" VerticalAlignment="Top" Width="75" TabIndex="2"/>
+        <Button x:Name="btnThursday" Click="btnThursday_Click" Content="Torsdag" HorizontalAlignment="Left" Margin="362,85,0,0" VerticalAlignment="Top" Width="75" TabIndex="3"/>
+        <Button x:Name="btnFriday" Click="btnFriday_Click" Content="Fredag" HorizontalAlignment="Left" Margin="264,136,0,0" VerticalAlignment="Top" Width="75" TabIndex="4"/>
+        <Button x:Name="btnSaturday" Click="btnSaturday_Click" Content="Lördag" HorizontalAlignment="Left" Margin="314,214,0,0" VerticalAlignment="Top" Width="75" TabIndex="5"/>
+        <Button x:Name="btnSunday" Click="btnSunday_Click" Content="Söndag" HorizontalAlignment="Left" Margin="134,90,0,0" VerticalAlignment="Top" Width="75" TabIndex="6"/>
+        <Label x:Name="lblResult" Content="" HorizontalAlignment="Left" Margin="45,265,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
